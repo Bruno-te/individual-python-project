@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>A 404 Error Page!!!</title>
+                <meta charset="utf-8">
+                <style>
+                        .header {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                        }
+                        .main {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                height: 200px;
+                                padding-top: 5px;
+
+                        }
+                        .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+                       h2 {font-size: 60px;
+            margin: 0;
+            color: #e74c3c;      
+                       }
+
+                        img {
+                                max-width: 100%;
+                        }
+                        body {
+                                background-color: #fbfcf8;
+                        }
+                </style>
+        </head>
+        <body>
+                <header class="header">
+                        <div>
+                                <h1>A BEAUTIFUL 404 ERROR PAGE</h1>
+                        </div>
+                </header>
+                <main class="main">
+
+                                <div class="content">
+                                        <h2>404</h2>
+
+                                        <p>Ceci n'est pas une page.</p>
+                                        <a href="/" class="button">Back to home</a>
+                                    </div>
+        
+                </main>
+                <footer></footer>
+        </body>
+</html>
